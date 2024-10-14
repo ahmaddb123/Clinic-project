@@ -27,3 +27,8 @@
   @keyframes l24{
     100%{background-position: left}
   }
+  @media (max-width: 770px) {
+    .loader {
+      font-size: 40px;
+    } 
+  }

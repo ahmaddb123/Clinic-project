@@ -26,6 +26,7 @@
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 30px;
+    text-align: center;
 }
 .Article .container ul li h1 svg {
     color: #991f68;
@@ -53,12 +54,12 @@
         font-size: 25px;
     }
     .Article .container ul li h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .Article .container ul li p {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 1.7;
-        text-align: justify;
+        text-align: center  ;
     }
     .Article .container ul li h1 svg {
         font-size: 25px;

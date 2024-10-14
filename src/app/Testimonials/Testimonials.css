@@ -57,6 +57,7 @@
   .Testimonials .container .card {
     flex-direction: column;
     padding: 20px;
+    margin: 20px 0;
   }
   .Testimonials .container .card .text-testimonials {
     text-align: center;

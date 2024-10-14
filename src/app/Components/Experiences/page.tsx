@@ -8,7 +8,7 @@ function Experiences() {
     <div className='Experiences'>
       <div className='container mx-auto'>
         <div className='container-img-experiences'>
-          <Image src={"/dr-4.jpg"} alt='' width={500} height={500} className='img-experiences'/>
+          <Image src={"/dr-4.jpg"} alt='' width={450} height={450} className='img-experiences'/>
         </div>
         <div className='Experiences-info'>
           <ul>

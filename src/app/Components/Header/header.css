@@ -57,7 +57,7 @@ container-brand,
     position: absolute;
     display: flex;
     align-items: center;
-    top: 80px;
+    top: 100px;
     clip-path: inset(0 400px 0 0px);
     left: 0;
     flex-direction: column;
@@ -119,7 +119,7 @@ container-brand,
   .concat span {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 10px 0;
   }
   .concat span svg {
     color: var(--text-color);

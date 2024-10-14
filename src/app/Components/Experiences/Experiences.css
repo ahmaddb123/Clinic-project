@@ -9,7 +9,11 @@
     flex-direction: column;
 }
 .img-experiences {
+    padding: 10px;
     border-radius: 20px;
+}
+.Experiences .container ul {
+    padding: 20px;
 }
 .Experiences .container ul h1 {
     width: 100%;
@@ -17,6 +21,7 @@
     font-weight: bold;
     font-size: 30px;
     margin: 20px 0;
+
 }
 .Experiences .container ul li {
     margin: 20px 0;
