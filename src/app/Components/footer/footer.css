@@ -1,0 +1,78 @@
+.Footer {
+  background-color: var(--text-color);
+  color: white;
+  padding: 20px;
+}
+.Footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  border-top  : 1px solid white;
+  border-bottom: 1px solid white;
+}
+.container-img-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+}
+.card-footer {
+  width: 25%;
+  margin: 30px;
+}
+.footer-number .number {
+    display: flex;
+    flex-direction: column;
+}
+.footer-number .number h4,
+.footer-address h4,
+.footer-media h1 {
+    margin-bottom: 10px;
+}
+.created {
+  text-align: center;
+  margin: 20px 0 0;
+}
+@media (max-width : 775px) {
+    .Footer .container  {
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: none;
+    }
+    .card-footer {  
+        width: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid white;
+        margin: 20px 0 0;
+    }
+
+}
+
+.container-brand-contact {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 0;
+}
+.container-brand-contact svg {
+  font-size: 40px;
+}
+.container-brand-contact svg.Facebook {
+  color: #1877f2;
+}
+.container-brand-contact svg.Tiktok {
+  color: white;
+}
+.container-brand-contact svg.Instagram {
+  color: #c13584;
+}
+.container-brand-contact svg.Whatsapp {
+  color: #25d366;
+}
