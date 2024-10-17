@@ -91,7 +91,7 @@ function ContactUs() {
               >
                 <FontAwesomeIcon icon={faTiktok} className="brand Tiktok" />
               </Link>
-              <Link href={"profile.php?id=61556084533982&mibextid=ZbWKwL"}>
+              <Link href={"https://www.instagram.com/dr_shamy2020/"}>
                 <FontAwesomeIcon
                   icon={faInstagram}
                   className="brand Instagram"

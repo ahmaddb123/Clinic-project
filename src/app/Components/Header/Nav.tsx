@@ -70,7 +70,7 @@ const Nav: React.FC<NavProps> = ({ isActive, setIsActive }) => {
           <Link href={"https://www.tiktok.com/@dr_shamyclinic2020?_t=8qVCQUUhl4M&_r=1"}>
             <FontAwesomeIcon icon={faTiktok} className="brand Tiktok" />
           </Link>
-          <Link href={"profile.php?id=61556084533982&mibextid=ZbWKwL"}>
+          <Link href={"https://www.instagram.com/dr_shamy2020/"}>
             <FontAwesomeIcon icon={faInstagram} className="brand Instagram" />
           </Link>
           <Link href={"https://wa.me/201207887859"}>
