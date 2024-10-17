@@ -61,7 +61,10 @@ border-color: var(--color-text);
         padding: 0 10px ;
     }
     .container-info h1 {
-        font-size: 40px;
+        font-size: 30px;
+    }
+    .container-info h2 {
+      font-size: 25px;
     }
     .img {
         width: 300px;

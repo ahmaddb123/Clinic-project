@@ -5,7 +5,7 @@ import React from 'react'
 function Icontow() {
   return (
     <div className="Container-image-icon-2">
-        <Image src={"/lungs-2.png"} alt="" width={100} height={100} />
+        <Image src={"/logo.png"} alt="" width={100} height={100} />
     </div>
   )
 }

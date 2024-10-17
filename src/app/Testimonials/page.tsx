@@ -4,10 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserDoctor } from "@fortawesome/free-solid-svg-icons";
 import { testimonials } from "../data";
 import Image from "next/image";
+import Icontow from "../Components/icon-2/Icontow";
 
 function Testimonials() {
   return (
     <div className="Testimonials">
+      <Icontow/>
       <div className="container mx-auto">
         <h1>
           التقييمات والشهادات <FontAwesomeIcon icon={faUserDoctor} /> :

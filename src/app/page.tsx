@@ -1,12 +1,11 @@
 "use client";
 import Image from "next/image";
-import "./page.css"; 
+import "./page.css";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Experiences from "./Components/Experiences/page";
 import Loading from "./Components/Loading/page";
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion"; 
-import Icon from "./Components/Icon/Icon";
+import { motion } from "framer-motion";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -18,9 +17,8 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
-
   const fadeInVariants = {
-    hidden: { opacity: 0, y: 50 }, 
+    hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 1 } },
   };
 
@@ -36,7 +34,6 @@ export default function Home() {
             animate="visible"
             variants={fadeInVariants} // تطبيق التأثيرات
           >
-                    <Icon/>
             <div className="container mx-auto">
               {/* Container Info */}
               <div className="container-info">

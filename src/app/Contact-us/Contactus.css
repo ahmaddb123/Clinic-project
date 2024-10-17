@@ -4,6 +4,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   padding: 70px 0;
+  position: relative;
 }
 .Contactus .container {
   display: flex;
@@ -52,6 +53,12 @@
   padding: 30px;
   margin: 20px;
   border-radius: 20px;
+
+  transition: 0.5s;
+}
+.container-text-contact .card-contact:hover {
+  background-color: #3F72AF;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .container-text-contact .card-contact h1 {
   text-align: center;

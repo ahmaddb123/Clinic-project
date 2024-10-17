@@ -17,10 +17,12 @@ import {
   faTiktok,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import Icontow from "../Components/icon-2/Icontow";
 
 function ContactUs() {
   return (
     <div className="Contactus">
+      <Icontow/>
       <div className="container mx-auto">
         <div className="container-contact-img">
           <Image

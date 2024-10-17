@@ -1,12 +1,14 @@
 .Container-image-icon-2 {
     position: absolute;
     z-index: 8;
-    top: 20px;
-    left: 0;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    left: 20px;
+    top: 25px;
 } 
+
 @media (max-width: 770px) {
-    .Container-image-icon-2 img {
-        width: 70px;
-        height: 70px;
+    .Container-image-icon-2{
+        display: none;
     }
 }

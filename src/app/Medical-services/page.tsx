@@ -4,9 +4,11 @@ import Image from "next/image";
 import { medicalServices } from "../data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserDoctor } from "@fortawesome/free-solid-svg-icons";
+import Icontow from "../Components/icon-2/Icontow";
 function MedicalServices() {
   return (
     <div className="services">
+      <Icontow/>
       <div className="container mx-auto">
         <h1>الخدمات الطبية المقدمة في العيادة <FontAwesomeIcon icon={faUserDoctor} />  : </h1>
         <p>
