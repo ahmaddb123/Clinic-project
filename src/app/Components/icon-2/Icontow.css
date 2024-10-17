@@ -1,13 +1,10 @@
 .Container-image-icon-2 {
     position: absolute;
     z-index: 8;
-    top: 0px;
+    top: 20px;
     left: 0;
 } 
 @media (max-width: 770px) {
-    .Container-image-icon-2 {
-        top: 0px;
-    }
     .Container-image-icon-2 img {
         width: 70px;
         height: 70px;

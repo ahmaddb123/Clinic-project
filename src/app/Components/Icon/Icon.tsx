@@ -5,7 +5,7 @@ import React from 'react'
 function Icon() {
   return (
     <div className="Container-image-icon">
-        <Image src={"/lungs.png"} alt="" width={200} height={200} />
+        <Image src={"/lungs.png"} alt="" width={100} height={100} />
     </div>
   )
 }

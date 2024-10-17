@@ -30,6 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="ltr">
+      <link rel="icon" href="./favicon.ico" sizes="32x32" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
