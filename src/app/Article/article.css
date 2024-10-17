@@ -39,6 +39,11 @@
     margin: 20px;
     padding: 40px;
     border-radius: 10px;
+    transition: 0.5s;
+}
+.Article .container ul li:hover {
+    background-color: #1c487a;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .Article .container ul li h1 {
     font-size: 35px;
@@ -50,6 +55,9 @@
     text-align: justify;
 }
 @media (max-width: 770px) {
+    .Article .container ul li {
+        padding: 30px 20px;
+    }
     .Article .container .title {
         font-size: 25px;
     }
@@ -59,7 +67,7 @@
     .Article .container ul li p {
         font-size: 15px;
         line-height: 1.7;
-        text-align: center  ;
+        text-align: justify  ;
     }
     .Article .container ul li h1 svg {
         font-size: 25px;

@@ -3,9 +3,18 @@
   padding: 50px 0;
   margin-top: 40px;
 }
+.container-image {
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.container-image:hover {
+  border-color: var(--color-text);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .container-image .img {
   border-radius: 20px;
-  padding: 10px;
 }
 
 .container-about {

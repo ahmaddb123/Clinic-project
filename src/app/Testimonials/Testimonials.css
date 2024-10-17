@@ -56,7 +56,7 @@
 @media (max-width: 770px) {
   .Testimonials .container .card {
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 0;
     margin: 20px 0;
   }
   .Testimonials .container .card .text-testimonials {

@@ -1,10 +1,12 @@
 "use client";
 import Image from "next/image";
-import "./page.css";
+import "./page.css"; 
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Experiences from "./Components/Experiences/page";
 import Loading from "./Components/Loading/page";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion"; 
+import Icon from "./Components/Icon/Icon";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -16,13 +18,25 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
+
+  const fadeInVariants = {
+    hidden: { opacity: 0, y: 50 }, 
+    visible: { opacity: 1, y: 0, transition: { duration: 1 } },
+  };
+
   return (
     <>
       {loading ? (
         <Loading />
       ) : (
         <>
-          <div className="home">
+          <motion.div
+            className="home"
+            initial="hidden"
+            animate="visible"
+            variants={fadeInVariants} // تطبيق التأثيرات
+          >
+                    <Icon/>
             <div className="container mx-auto">
               {/* Container Info */}
               <div className="container-info">
@@ -43,9 +57,22 @@ export default function Home() {
                 />
               </div>
             </div>
-          </div>
-          <AboutUs />
-          <Experiences />
+          </motion.div>
+          {/* Sections */}
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={fadeInVariants} // نفس تأثير التلاشي
+          >
+            <AboutUs />
+          </motion.div>
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={fadeInVariants} // نفس تأثير التلاشي
+          >
+            <Experiences />
+          </motion.div>
         </>
       )}
     </>

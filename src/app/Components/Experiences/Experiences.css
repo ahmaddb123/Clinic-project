@@ -1,6 +1,16 @@
 .Experiences {
     background-color: white;
     padding: 60px 0;
+    position: relative;
+}
+.container-img-experiences {
+    padding: 10px;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.container-img-experiences:hover {
+    border-color: var(--color-text);
 }
 .Experiences .container {
     display: flex;

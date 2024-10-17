@@ -3,10 +3,12 @@ import React from "react";
 import "./about.css"
 import { faLungsVirus, faStethoscope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Icontow from "../icon-2/Icontow";
 
 function AboutUs() {
   return (
     <div className="about-us">
+      <Icontow/>
       <div className="container mx-auto flex items-center justify-center">
         <div className="container-image">
           <Image src={"/dr-6 (1).jpg"} alt="" width={600} height={600} className="img" />
