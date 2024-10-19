@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,12 +6,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --text-color : #112D4E;
-  --color-one :#F9F7F7;
-  --color-tow :#DBE2EF;
-  --Decorations :#3F72AF;
+  --text-color: green;
+  --color-title: blue;
+  --color-title-tow: red;
+  --color-one: #f9f7f7;
+  --color-tow: #dbe2ef;
 }
-
 
 body {
   color: var(--foreground);

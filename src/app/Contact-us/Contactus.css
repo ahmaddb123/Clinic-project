@@ -57,7 +57,7 @@
   transition: 0.5s;
 }
 .container-text-contact .card-contact:hover {
-  background-color: #3F72AF;
+  background-color:rgb(3, 91, 3);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .container-text-contact .card-contact h1 {
@@ -107,7 +107,7 @@
 }
 .address a {
   text-decoration: underline;
-  color: #528ed8;
+  color: var(--color-title-tow);
   margin-top: 5px;
 }
 @media (max-width: 780px) {

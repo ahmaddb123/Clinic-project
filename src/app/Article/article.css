@@ -1,8 +1,9 @@
 .Article {
-    background-image: url("/back-article.jpg");
-    background-size: cover;
+    background-image: url("/logo.png");
+    background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
     padding: 70px 0; 
     position: relative;
 }
@@ -27,9 +28,12 @@
     font-weight: bold;
     margin-bottom: 30px;
     text-align: center;
+    color: var(--color-title);
+    border-bottom: 2px solid var(--color-title);
+    width: fit-content;
 }
 .Article .container ul li h1 svg {
-    color: #991f68;
+    color: var(--color-title-tow);
     font-size: 40px;
     margin: 0 10px;
 }
@@ -42,12 +46,17 @@
     transition: 0.5s;
 }
 .Article .container ul li:hover {
-    background-color: #1c487a;
+    background-color: rgb(3, 91, 3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .Article .container ul li h1 {
     font-size: 35px;
     margin-bottom: 30px;
+    color: var(--color-title-tow);
+    border-bottom: 2px solid var(--color-title-tow);
+    width: fit-content;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 .Article .container ul li p {
     font-size: 25px;

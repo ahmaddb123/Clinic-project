@@ -13,9 +13,13 @@
   font-size: 40px;
   margin-bottom: 30px;
   font-weight: bold;
+  color: var(--color-title);
+  border-bottom: 2px solid var(--color-title);
+  padding-bottom: 20px;
+  width: fit-content;
 }
 .Testimonials .container h1 svg {
-  color: #a31c65;
+  color: var(--color-title);
   font-size: 40px;
 }
 .Testimonials .container .desc {
@@ -43,6 +47,9 @@
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 10px;
+  color: var(--color-title-tow);
+  border-bottom: 2px solid var(--color-title-tow);
+  width: fit-content;
 }
 .Testimonials .container .card .text-testimonials p {
   font-size: 20px;
