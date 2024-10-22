@@ -12,7 +12,7 @@ function Testimonials() {
       <Icontow/>
       <div className="container mx-auto">
         <h1>
-          التقييمات والشهادات <FontAwesomeIcon icon={faUserDoctor} /> :
+          تجارب المرضى مع الطبيب <FontAwesomeIcon icon={faUserDoctor} /> :
         </h1>
         <p className="desc">
           نحن نعتز بتقديم أفضل مستوى من الرعاية الطبية لمرضانا، ونسعى دائمًا

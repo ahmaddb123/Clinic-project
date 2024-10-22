@@ -1,5 +1,5 @@
 .home {
-  background-image: url("/logo.png");
+  background-image: url("/logo-2.png");
   background-repeat: no-repeat;
   background-position: center;
   padding: 100px 0;
@@ -42,7 +42,8 @@ border-color: var(--color-text);
     text-align: center;
     margin: 0 20px;
     width: 80%;
-    color: var();
+    color: black;
+
 }
 .container-info h1 {
   font-size: 50px;

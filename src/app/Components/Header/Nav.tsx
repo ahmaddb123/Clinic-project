@@ -38,7 +38,7 @@ const Nav: React.FC<NavProps> = ({ isActive, setIsActive }) => {
         </li>
         <li onClick={close}>
           <Link className="link" href={"/Testimonials"}>
-          التقييمات والشهادات
+          تجارب المرضى
           </Link>
         </li>
         <li onClick={close}>
