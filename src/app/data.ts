@@ -367,3 +367,163 @@ export const doctorExperiences: DoctorExperience[] = [
       "قام الدكتور في التدريس في جامعة الأزهر وفي بعض جامعات الدول العربية لطلاب الطب والصيدلة كما أنه له خبرة كبيرة في أجراء مناظير الجهاز التنفسي وإجراء العمليات الجراحية الخاصة في الرئة ك أخذ عينات من الرئة, تصريف الهواء والسوائل من الرئة, فحص وظائف التنفس قبل وبعد العلاج ...",
   },
 ];
+
+
+export const galleryImages = [
+  {
+    id: 1,
+    imageName: "gallery-1.jpg",
+  },
+  {
+    id: 2,
+    imageName: "gallery-2.jpg",
+  },
+  {
+    id: 3,
+    imageName: "gallery-3.jpg",
+  },
+  {
+    id: 4,
+    imageName: "gallery-4.jpg",
+  },
+  {
+    id: 5,
+    imageName: "gallery-5.jpg",
+  },
+  {
+    id: 6,
+    imageName: "gallery-6.jpg",
+  },
+  {
+    id: 7,
+    imageName: "gallery-7.jpg",
+  },
+  {
+    id: 8,
+    imageName: "gallery-8.jpg",
+  },
+  {
+    id: 9,
+    imageName: "gallery-9.jpg",
+  },
+  {
+    id: 10,
+    imageName: "gallery-10.jpg",
+  },
+  {
+    id: 11,
+    imageName: "gallery-11.jpg",
+  },
+  {
+    id: 12,
+    imageName: "gallery-12.jpg",
+  },
+  {
+    id: 13,
+    imageName: "gallery-13.jpg",
+  },
+  {
+    id: 14,
+    imageName: "gallery-14.jpg",
+  },
+  {
+    id: 15,
+    imageName: "gallery-15.jpg",
+  },
+  {
+    id: 16,
+    imageName: "gallery-16.jpg",
+  },
+  {
+    id: 17,
+    imageName: "gallery-17.jpg",
+  },
+  {
+    id: 18,
+    imageName: "gallery-18.jpg",
+  },
+  {
+    id: 19,
+    imageName: "gallery-19.jpg",
+  },
+  {
+    id: 20,
+    imageName: "gallery-20.jpg",
+  },
+  {
+    id: 21,
+    imageName: "gallery-21.jpg",
+  },
+  {
+    id: 22,
+    imageName: "gallery-22.jpg",
+  },
+  {
+    id: 23,
+    imageName: "gallery-23.jpg",
+  },
+  {
+    id: 24,
+    imageName: "gallery-24.jpg",
+  },
+  {
+    id: 25,
+    imageName: "gallery-25.jpg",
+  },
+  {
+    id: 26,
+    imageName: "gallery-26.jpg",
+  },
+  {
+    id: 27,
+    imageName: "gallery-27.jpg",
+  },
+  {
+    id: 28,
+    imageName: "gallery-28.jpg",
+  },
+  {
+    id: 29,
+    imageName: "gallery-29.jpg",
+  },
+  {
+    id: 30,
+    imageName: "gallery-30.jpg",
+  },
+  {
+    id: 31,
+    imageName: "gallery-31.jpg",
+  },
+];
+export const galleryVideos: { id: number; title: string; videoUrl: string }[] = [
+  {
+    id: 1,
+    title: "فيديو 1",
+    videoUrl: "gallery-ved-1.mp4",
+  },
+  {
+    id: 2,
+    title: "فيديو 2",
+    videoUrl: "gallery-ved-2.mp4",
+  },
+  {
+    id: 3,
+    title: "فيديو 3",
+    videoUrl: "gallery-ved-3.mp4",
+  },
+  {
+    id: 4,
+    title: "فيديو 4",
+    videoUrl: "gallery-ved-4.mp4",
+  },
+  {
+    id: 5,
+    title: "فيديو 5",
+    videoUrl: "gallery-ved-5.mp4",
+  },
+  {
+    id: 6,
+    title: "فيديو 6",
+    videoUrl: "gallery-ved-6.mp4",
+  },
+];

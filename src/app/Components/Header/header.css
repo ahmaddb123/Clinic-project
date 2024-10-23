@@ -45,7 +45,7 @@ container-brand,
     border-bottom: 3px solid transparent;
   }
 }
-@media (max-width: 780px) {
+@media (max-width: 1030px) {
   .container-nav svg {
     display: block;
     font-size: 30px;
@@ -53,13 +53,13 @@ container-brand,
   }
   .nav {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 20px;
+    padding: 20px 20px 40px;
     position: absolute;
     display: flex;
     align-items: center;
-    top: 100px;
+    top: 120px;
     clip-path: inset(0 400px 0 0px);
-    left: 0;
+    left: -200px;
     flex-direction: column;
     width: 50%;
     background-color: var(--color-one);
@@ -73,6 +73,7 @@ container-brand,
   .nav.active {
     clip-path: inset(0 0 0 0);
     overflow-x: auto;
+    left: 0px;
   }
    .nav li:not(:last-child) {
     padding-bottom: 20px;

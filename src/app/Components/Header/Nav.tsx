@@ -47,6 +47,11 @@ const Nav: React.FC<NavProps> = ({ isActive, setIsActive }) => {
           </Link>
         </li>
         <li onClick={close}>
+          <Link className="link" href={"/Gallery"}>
+            المعرض
+          </Link>
+        </li>
+        <li onClick={close}>
           <Link className="link" href={"/Contact-us"}>
             إتصل بنا
           </Link>

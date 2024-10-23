@@ -1,0 +1,112 @@
+.Gallery {
+  background-image: url("/logo-2.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-top: 100px;
+}
+.Gallery::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245, 222, 179, 0.708);
+}
+.Gallery .container {
+  position: relative;
+  padding: 50px 20px;
+  z-index: 9;
+}
+.Gallery h1 {
+  color: var(--color-title);
+  border-bottom: 2px solid var(--color-title);
+  padding-bottom: 5px;
+  width: fit-content;
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.Gallery p {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+.cont-imgs,
+.cont-ved {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.title-gallery {
+  width: 100%;
+}
+.container-img-gallery,
+.container-ved-gallery {
+  width: 400px;
+  border-radius: 30px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  margin: 30px;
+  overflow: hidden;
+  background-color: green;
+  transition: 0.5s;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
+.container-img-gallery {
+  height: 600px;
+}
+.container-ved-gallery  {
+  height: fit-content;
+}
+.option {
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 1000px;
+}
+.option h1 {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 5px 10px;
+border-radius: 5px;
+border: 2px solid transparent;
+}
+.option h1.active {
+  color: white;
+  border: 2px solid red;
+  background-color: red;
+}
+@media (max-width: 1070px) {
+  .container-img-gallery,
+  .container-ved-gallery  {
+    height: fit-content;
+  }
+  .Gallery h1 {
+    font-size: 30px;
+  }
+  .option {
+    width: 100%;  
+  }
+}
+@media (max-width: 750px) {
+  .option h1 {
+    font-size: 17px;
+  }
+}
