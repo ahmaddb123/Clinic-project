@@ -23,7 +23,7 @@
   margin: 0 20px;
 }
 .container-about h1 {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 30px;
   color: var( --color-title );
@@ -36,7 +36,7 @@
   font-size: 30px;
 }
 .container-about h3 {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 10px;
   color: var(--color-title-tow);
@@ -48,10 +48,12 @@
   list-style-type: disc;
 }
 .container-about ul li {
-  font-size: 20px;
+  font-size: 22px;
   margin: 10px 0;
+  font-weight: bold;
 }
 @media (max-width: 770px) {
+
   .about-us .container {
     flex-direction: column-reverse;
   }

@@ -9,7 +9,7 @@ function Article() {
     <div className="Article">
       <Icontow/>
       <div className="container mx-auto">
-        <h1 className="title">مقالات طبية - Medical Articles <FontAwesomeIcon icon={faStethoscope} /></h1>
+        <h1 className="title">معلومات طبية - Medical Information <FontAwesomeIcon icon={faStethoscope} /></h1>
         <ul className="container-article">
           {articles.map((data) => (
             <li key={data.id}>

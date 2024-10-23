@@ -43,7 +43,7 @@ const Nav: React.FC<NavProps> = ({ isActive, setIsActive }) => {
         </li>
         <li onClick={close}>
           <Link className="link" href={"/Article"}>
-            مقالات طبية
+            معلومات طبية
           </Link>
         </li>
         <li onClick={close}>

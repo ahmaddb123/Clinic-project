@@ -28,8 +28,8 @@ function ContactUs() {
           <Image
             src={"/dr-1.jpg"}
             alt=""
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             className="img-contact"
           />
           <h1>تواصلوا معنا</h1>

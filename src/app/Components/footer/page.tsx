@@ -18,8 +18,8 @@ export default function Footer() {
         <Image
           src={"/logo.png"}
           alt=""
-          width={80}
-          height={80}
+          width={100}
+          height={100}
           className="img-footer"
         />
         <h1>الأستاذ الدكتور عبد السلام الشامي</h1>
