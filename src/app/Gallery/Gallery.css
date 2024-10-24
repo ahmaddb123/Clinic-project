@@ -89,9 +89,9 @@ border-radius: 5px;
 border: 2px solid transparent;
 }
 .option h1.active {
-  color: white;
-  border: 2px solid red;
-  background-color: red;
+  color: black;
+  border: 2px solid yellow;
+  background-color: yellow;
 }
 @media (max-width: 1070px) {
   .container-img-gallery,

@@ -5,6 +5,7 @@ import { medicalServices } from "../data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserDoctor } from "@fortawesome/free-solid-svg-icons";
 import Icontow from "../Components/icon-2/Icontow";
+import Iconone from "../Components/icon-1/Icontow";
 function MedicalServices() {
   return (
     <div className="services">
@@ -26,6 +27,8 @@ function MedicalServices() {
               <h4>{data.title} :</h4>
               <p>{data.description}</p>
               </div>
+              <div className="cont-img">
+               <Iconone/>
               <Image
                 src={`/${data.imageUrl}`}
                 alt=""
@@ -33,6 +36,7 @@ function MedicalServices() {
                 height={300}
                 className="img-serv"
               />
+              </div>
             </li>
           ))}
         </ul>

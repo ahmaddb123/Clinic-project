@@ -490,6 +490,14 @@ export const galleryImages = [
     id: 31,
     imageName: "gallery-31.jpg",
   },
+  {
+    id: 31,
+    imageName: "gallery-32.jpg",
+  },
+  {
+    id: 31,
+    imageName: "gallery-33.jpg",
+  },
 ];
 export const galleryVideos: { id: number; title: string; videoUrl: string }[] = [
   {
@@ -521,5 +529,15 @@ export const galleryVideos: { id: number; title: string; videoUrl: string }[] = 
     id: 6,
     title: "فيديو 6",
     videoUrl: "gallery-ved-6.mp4",
+  },
+  {
+    id: 6,
+    title: "فيديو 6",
+    videoUrl: "gallery-ved-7.mp4",
+  },
+  {
+    id: 6,
+    title: "فيديو 6",
+    videoUrl: "gallery-ved-8.mp4",
   },
 ];

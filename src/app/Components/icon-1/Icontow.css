@@ -1,0 +1,12 @@
+.Container-image-icon-1 {
+  position: absolute;
+  z-index: 8;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  right: 10px;
+  bottom: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+

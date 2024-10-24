@@ -109,7 +109,7 @@
 }
 .address a {
   text-decoration: underline;
-  color: var(--color-title-tow);
+  color: yellow;
   margin-top: 5px;
 }
 @media (max-width: 780px) {
