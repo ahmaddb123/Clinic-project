@@ -491,12 +491,20 @@ export const galleryImages = [
     imageName: "gallery-31.jpg",
   },
   {
-    id: 31,
+    id: 32,
     imageName: "gallery-32.jpg",
   },
   {
-    id: 31,
+    id: 33,
     imageName: "gallery-33.jpg",
+  },
+  {
+    id: 34,
+    imageName: "gallery-34.jpg",
+  },
+  {
+    id: 35,
+    imageName: "gallery-35.jpg",
   },
 ];
 export const galleryVideos: { id: number; title: string; videoUrl: string }[] = [
