@@ -71,7 +71,7 @@ function ContactUs() {
             </p>
             <Link
               href={
-                "https://www.google.com/maps/place/Street+3,+العبور،+محافظة+القليوبية%E2%80%AD/@30.1763142,31.4634651,17z/data=!3m1!4b1!4m6!3m5!1s0x14581a61506c2373:0x288acb12a2219669!8m2!3d30.1763142!4d31.4634651!16s%2Fg%2F11b6ydbx7s?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+                "https://maps.app.goo.gl/1dLjAvoZeZbWQ1aw6"
               }
             >
               <FontAwesomeIcon icon={faLocationDot} /> الموقع
