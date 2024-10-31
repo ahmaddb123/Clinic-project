@@ -125,3 +125,15 @@
 .media h1 svg {
   color: #368cfd;
 }
+.btn-link {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  padding: 10px 5px ;
+  border-radius: 5px;
+  text-align: center;
+  transition: .5s;
+&:hover {
+  background-color: rgb(206, 206, 11);
+}
+}

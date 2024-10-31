@@ -9,6 +9,7 @@ import {
   faLocationDot,
   faMobileScreen,
   faPhone,
+  faQrcode,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import {
@@ -111,6 +112,13 @@ function ContactUs() {
             <h4>ساعات العمل :</h4>
             <p>من الساعة 6:00pm وحتى الساعة 10:00pm</p>
             <p>الخميس والجمعة مقفل</p>
+          </div>
+          <div className="card-contact">
+          <h1>
+          <FontAwesomeIcon icon={faQrcode} />
+            </h1>
+            <h4>معلومات الأستاذ الدكتور عبد السلام الشامي الموجودة في محرك البحث Google :</h4>
+            <Link className="btn-link" href={"https://www.google.com/search?q=Abdel-Salam%20Elshamy"}>إضغط هنا</Link>
           </div>
         </div>
       </div>
